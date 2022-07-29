@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Text Input Example</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Form Controls</h1>
+      <h2>Text Input Controls</h2>
+      <h3>
+        Text Inputs (also called Textboxes) are used to collect information like
+        names and addresses.
+      </h3>
+      <form method="get">
+        <fieldset>
+          <legend>Example</legend>
+          
+          <label for="firstName">First name</label>
+          <input id="firstName" type="text" name="first_name" autofocus />
+
+          <label for="lastName">Last name</label>
+          <input id="lastName" type="text" name="last_name" />
+
+          <label for="addressLine1">Address line 1</label>
+          <input id="addressLine1" type="text" name="addrLine1" />
+
+          <label for="addressLine2">Address line 2</label>
+          <input id="addressLine2" type="text" name="addrLine2" />
+            
+          <label for="postCode">Post code</label>
+          <input id="postCode" type="text" name="postCode" />
+        </fieldset>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

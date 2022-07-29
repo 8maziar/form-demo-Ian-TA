@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Checkbox Example</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Form Controls</h1>
+      <h2>Checkbox Controls</h2>
+      <h3>
+        Checkbox controls in a group allow many choices to be made from several
+        options.
+      </h3>
+      <form method="get">
+        <fieldset>
+          <legend>Choose your favourite sports</legend>
+
+          <input id="checkbox1" type="checkbox" name="favourite_sport" value="soccer" />
+          <label for="checkbox1">Soccer</label>
+
+          <input id="checkbox2" type="checkbox" name="favourite_sport" value="badminton" />
+          <label for="checkbox2">Badminton</label>
+
+          <input id="checkbox3" type="checkbox" name="favourite_sport" value="hockey" />
+          <label for="checkbox3">Hockey</label>
+
+          <input id="checkbox4" type="checkbox" name="favourite_sport" value="volleyball" />
+          <label for="checkbox4">Volleyball</label>
+        </fieldset>
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Select Example</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Form Controls</h1>
+      <h2>Select Controls</h2>
+      <h3>
+        Select controls are often used to choose one option OR more than one option from a list of
+        options.
+      </h3>
+      <form method="get">
+        <fieldset>
+          <legend>Example 1</legend>
+          <label for="continent">Which is the <em>largest</em> continent?</label>
+          <select name="continent" id="continent">
+            <option value="NA">North America</option>
+            <option value="SA">South America</option>
+            <option value="Af">Africa</option>
+            <option value="As">Asia</option>
+            <option value="Ant">Antarctica</option>
+            <option value="Eu">Europe</option>
+            <option value="Aus">Australia</option>
+          </select>
+        </fieldset>
+
+        <fieldset>
+          <legend>Example 2</legend>
+          <label for="cars">Which <em>cars</em> are manufactured in your country?</label>
+          <select id="cars" name="cars" multiple>
+            <option value="Alfa">Alfa</option>
+            <option value="BMW">BMW</option>
+            <option value="Continental">Continental</option>
+            <option value="Daimler">Daimler</option>
+            <option value="Fiat">Fiat Chrysler Automobiles</option>
+            <option value="Ford">Ford of Europe</option>
+            <option value="Mercedes">Mercedes</option>
+            <option value="Opel">Opel</option>
+            <option value="Porsche">Porsche</option>
+          </select>
+        </fieldset>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

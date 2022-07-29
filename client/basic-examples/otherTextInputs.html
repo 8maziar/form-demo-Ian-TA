@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Other Input Types</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Form Controls</h1>
+      <h2>Other Types of Input Controls</h2>
+      <h3>
+        The type attribute of the input element can have many other useful values.
+      </h3>
+      <form method="get">
+
+        <fieldset>
+          <legend>Email Example</legend>
+          <label for="emailAddress">Email address</label>
+          <input id="emailAddess" type="email" name="email" autofocus />
+        </fieldset>
+
+        <fieldset>
+          <legend>Multiple Email Example</legend>
+          <label for="emailAddress">Email address</label>
+          <input id="emailAddess" type="email" name="email" multiple />
+        </fieldset>
+
+        <fieldset>
+          <legend>Password Example</legend>
+          <label for="password">Password</label>
+          <input id="password" type="password" name="password" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Numeric Example</legend>
+          <label for="numeric">Numeric Input</label>
+          <input id="numeric" type="number" name="numeric" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Search Input</legend>
+          <label for="search">Search for</label>
+          <input id="search" type="search" name="search" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Telephone Input</legend>
+          <label for="telephone">Telephone</label>
+          <input id="telephone" type="tel" name="phone" />
+        </fieldset>
+
+        <fieldset>
+          <legend>URL Input</legend>
+          <label for="url"></label>
+          <input type="url" value="https://www.google.com/" />
+        </fieldset>
+
+        <fieldset>
+          <legend>A Range Example</legend>
+          <label for="price">Choose a maximum house price: </label>
+          <input type="range" name="price" id="price" min="50000" max="500000" step="100" value="250000" />
+        </fieldset>
+
+        <fieldset>
+          <legend>Date and Time Picker Example</legend>
+          <div>
+            <label for="party">Choose a date and time for your party:</label>
+            <input id="party" type="datetime-local" name="birthday">
+          </div>
+          <div>
+            <label for="month">Pick a month</label>
+            <input id="month" type="month" name="month">
+          </div>
+          <div>
+            <label for="time">Pick a time</label>
+            <input id="time" type="time" name="time">
+          </div>
+          <div>
+            <label for="week">Pick a week</label>
+            <input id="week" type="week" name="week">
+          </div>
+        </fieldset>
+
+        <fieldset>
+          <legend>Colour Picker</legend>
+          <label for="colour"></label>
+          <input id="colour" type="color" name="color" />
+        </fieldset>
+
+        <button type="reset">Reset</button>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
