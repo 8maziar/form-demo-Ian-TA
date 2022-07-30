@@ -2,10 +2,10 @@
   box-sizing: border-box;
 }
 body {
-  padding: 60px;
+  padding: 20px;
 }
 .container {
-  width: 640px;
+  width: 600px;
   margin: auto;
 }
 fieldset {
